@@ -1,0 +1,45 @@
+/*
+	Author : rosandi(m.rosandi05@gmail.com)
+	Date   : Agustus, 2015 
+*/
+
+@media (min-width: 320px){
+
+}
+
+
+@media (min-width : 480px) {
+
+}
+
+
+@media (min-width : 768px) {
+	.panel-login{background-position:-195px center;}
+	.panel-login > .panel-body{left:0;}
+	.has-error.input{left:10px; width:510px;}
+	.panel-login > .panel-footer{left:0; width:100%;}
+}
+
+
+@media (min-width : 992px) {
+	.panel-login{background-position:center center;}
+	.panel-login > .panel-body{left:30px;}
+	.has-error.input{left:305px; width:530px;}
+	.panel-login > .panel-footer{left:208px; width:675px;}
+	
+	#wrapper{width:1240px; padding:0 20px;}
+	nav > .container.border{width:1200px; }
+	#page-wrapper > .container{width:1200px; }
+}
+	
+
+@media (min-width : 1200px) {
+    #wrapper{width:auto; margin:0 50px; padding:0;}
+	nav > .container.border{width:auto; }
+	#page-wrapper > .container{width:auto; }
+}
+
+
+@media screen and (max-width: 60em) {
+	
+}
